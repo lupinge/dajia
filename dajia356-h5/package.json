@@ -1,0 +1,32 @@
+{
+  "name": "NG",
+  "description": "the Next Generation Web Front-end Solution",
+  "version": "0.1.0",
+  "homepage": "https://git.youwei.me/dj-static",
+  "author": {
+    "name": "chenjianbin",
+    "email": "chenjianbin@ganji.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.youwei.me/dj-static"
+  },
+  "bugs": {
+    "url": "https://git.youwei.me/dj-static/issues"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "dependencies": {
+    "g-builder": ">=0.4.0",
+    "grunt": "*",
+    "minimatch": "*",
+    "async": "*",
+    "dox": "https://github.com/visionmedia/dox/tarball/master",
+    "ejs": ">= 0.7.2",
+    "mkdirp": "~0.3.5",
+    "underscore": "~1.7.0",
+    "entities": "~1.1.1"
+  },
+  "keywords": []
+}

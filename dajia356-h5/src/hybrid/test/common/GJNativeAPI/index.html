@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+<meta name="format-detection"content="telephone=no">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<title>大家装修网</title>
+<style>
+    button {
+        display: block;
+        height: 40px;
+        margin: 10px;
+    }
+</style>
+</head>
+<body>
+<div id="fuck">jjdjdjjdjdj</div>
+<button data-widget="test/common/GJNativeAPI/test.js#confirm">confirm</button>
+<button data-widget="test/common/GJNativeAPI/test.js#alert">alert</button>
+<button
+    data-widget="test/common/GJNativeAPI/test.js#createWebView"
+    data-url="simpleViewTest.html"
+>createWebView(相对路径)</button>
+<button
+    data-widget="test/common/GJNativeAPI/test.js#createWebView"
+    data-url="search.html"
+    data-control='{"type": "searchBox", "text": "关键字", "placeholder": "提示语"}'
+>createWebView(带searchBox)</button>
+<button
+    data-widget="test/common/GJNativeAPI/test.js#createWebView"
+    data-url="webViewCallback.html"
+>createWebView(带webViewCallback)</button>
+<button data-widget="test/common/GJNativeAPI/test.js#getUserInfo">
+    getUserInfo
+</button>
+<button data-widget="test/common/GJNativeAPI/test.js#getDeviceInfo">
+    getDeviceInfo
+</button>
+<button data-widget="test/common/GJNativeAPI/test.js#getCityInfo">
+    getCityInfo
+</button>
+<button data-widget="test/common/GJNativeAPI/test.js#login">
+    login
+</button>
+<button data-widget="test/common/GJNativeAPI/test.js#makePhoneCall" data-number="10010">
+    makePhoneCall
+</button>
+<button data-widget="test/common/GJNativeAPI/test.js#updateTitle" data-title="测试标题">
+    updateTitle
+</button>
+<button data-widget="test/common/GJNativeAPI/test.js#weixinShare"
+    data-type="1"
+    data-title="测试标题1"
+    data-istimeline="0"
+>
+    微信分享(普通文本)
+</button>
+
+<button data-widget="test/common/GJNativeAPI/test.js#weixinShare"
+    data-type="2"
+    data-title="测试标题2"
+    data-image="src/image/mobile/touch/milan/global.png"
+    data-url="http://3g.ganji.com/"
+    data-istimeline="1"
+>
+    微信分享(文案+图片+url)
+</button>
+
+
+<script src="/dj/hybrid/common/g.js"></script>
+<script type="text/javascript">
+    document.getElementById('fuck').innerHTML = 'body-->jsss';
+    (function () {
+        document.getElementById('fuck').innerHTML = 'body-->functionxx';
+        var newVersion = parseInt(Date.now() / 1000, 10);
+        var lastVersion = (localStorage.getItem('FILE#version.js') || '').split('#__#')[0];
+        document.getElementById('fuck').innerHTML = 'body-->localStoragexx';
+        var version;
+
+        if (lastVersion.toString() !== parseInt(lastVersion).toString()) {
+            lastVersion = null;
+        } else {
+            lastVersion = parseInt(lastVersion, 10);
+        }
+
+        function onVersionJSReady () {
+            document.getElementById('fuck').innerHTML = 'version-ready-->functionxx';
+            G.use('hybrid/test/common/GJNativeAPI/test.js', function (Test) {
+                document.getElementById('fuck').innerHTML = 'test-ready-->functionxx';
+                Test.run();
+            });
+        }
+
+        function onFail() {
+            document.body.classList.remove('loading');
+            document.body.classList.add('offline');
+        }
+
+        if (window.navigator.onLine === false && lastVersion) {
+            version = lastVersion;
+        } else {
+            version = newVersion;
+        }
+
+        G.config('version', {
+            'version.js': version
+        });
+
+        G.use('version.js')
+            .done(onVersionJSReady)
+            .fail(function () {
+                if (!lastVersion) {
+                    onFail();
+                    return;
+                }
+
+                G.config('version', {
+                    'version.js': lastVersion
+                });
+
+                delete G.Module.cache['version.js'];
+
+                G.use('version.js')
+                    .done(onVersionJSReady)
+                    .fail(onFail);
+            });
+    })();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,346 @@
+[
+ {
+  "images": [
+   "/dj/hybrid/app/mall/img/product/product_01/slide_01.jpg",
+   "/dj/hybrid/app/mall/img/product/product_01/slide_02.jpg",
+   "/dj/hybrid/app/mall/img/product/product_01/slide_03.jpg",
+   "/dj/hybrid/app/mall/img/product/product_01/slide_04.jpg",
+   "/dj/hybrid/app/mall/img/product/product_01/slide_05.jpg"
+  ],
+  "name": "北欧/表情/objectum/比利时现代乡村/温尼伯法式实木双门书柜",
+  "price": 5984,
+  "original_price": 7480,
+  "logistic_fee": 0,
+  "sold_quantity": 0,
+  "province": "浙江",
+  "city": "杭州",
+  "select_attributes": [
+   {
+    "id": 1,
+    "name": "颜色",
+    "values": [
+     "红色",
+     "黄色",
+     "蓝色",
+     "黑色"
+    ]
+   },
+   {
+    "id": 2,
+    "name": "尺码",
+    "values": [
+     "13",
+     "14",
+     "15",
+     "16"
+    ]
+   }
+  ],
+  "merchant_id": 1,
+  "merchant_name": "北欧表情",
+  "merchant_province": "广东省",
+  "merchant_city": "广州市",
+  "detail": "<img src=\"/dj/hybrid/app/mall/img/product/product_01/detail_01.jpg\"><img src=\"/dj/hybrid/app/mall/img/product/product_01/detail_02.jpg\"><img src=\"/dj/hybrid/app/mall/img/product/product_01/detail_03.jpg\"><img src=\"/dj/hybrid/app/mall/img/product/product_01/detail_04.jpg\"><img src=\"/dj/hybrid/app/mall/img/product/product_01/detail_05.jpg\"><img src=\"/dj/hybrid/app/mall/img/product/product_01/detail_06.jpg\"><p>【中国首次独家推出的OBJECTUM系列】是由比利时著名设计师Steven Vetters主理打造的全新品牌系列，他擅长实木和其他材质的结合，每一件设计品以独具比利时味道的色彩、材质、纹理，来传递优雅的内在灵魂。Steven的设计对自然材料本身的特性有着极致的琢磨，特别是对于各类实木有着很强的领悟和表达。Steven Vetters是NORHOR首位正式展开合作的欧洲家具设计师，很荣幸店内全面引进了他推出的名为OBJECTUM的品牌系列设计，完整和全面的表达了设计师在自然材质和现代生活之间努力建立的对话关系。</p><p>1）缪斯是DIOR。克丽斯汀·迪奥在1946年以来的一系列服装设计，对Steven有着强烈的影响，因此在他自己设计的家居用品系列中，无论是造型，还是不同材料的结合使用，都追求DIOR服装一般的隽永、经典和优雅，同样的，设计中对线条的比例和宽度、适度夸张的构件对比等有诸多应用，形态上也追求具有永恒意义的造型，因此也同样呈现出一种法式的浪漫和优雅，而这是OBJECTUM系列最令人心旷神怡的灵魂所在。</p><p>2）善于治木。以回收老榆木,老松木等实木为主材，表面进一步做旧处理，表面施以比利时亚麻白色的涂装，气质怀旧悠然，色调优雅恬淡，呈现出一种高级的乡村生活质感。值得一提的是，回收木历经长久岁月其甲醛释放几乎为0，而荷兰进口水性漆和德国木蜡油涂装，作为当今家具涂装十分环保健康的选择，整体上对室内生活的健康有了极大保障。</p><p>3）巧于混搭。粗犷的回收木、纤巧的金属管、闪亮的不锈钢框架等等材料魔术般的整合在一起，巧妙的对比，精致的和谐，体现了欧洲家居时尚最新的混搭趋势。</p><p>4）尊重生活。十分节约空间又围合亲密的托圆桌、坐板有着细腻弧度的座椅、节约空间又储物强大的镜面落地架等，都是从生活实际需要出发展开的设计，首先确保功能，其次满足方便耐用的日常需求，最后为这样的生活提供优雅从容的举止。</p><img src=\"/dj/hybrid/app/mall/img/product/product_01/detail_07.jpg\"><img src=\"/dj/hybrid/app/mall/img/product/product_01/detail_08.jpg\">"
+ },
+ {
+  "images": [
+   "/dj/hybrid/app/mall/img/product/product_02/slide_01.jpg",
+   "/dj/hybrid/app/mall/img/product/product_02/slide_02.jpg",
+   "/dj/hybrid/app/mall/img/product/product_02/slide_03.jpg",
+   "/dj/hybrid/app/mall/img/product/product_02/slide_04.jpg",
+   "/dj/hybrid/app/mall/img/product/product_02/slide_05.jpg"
+  ],
+  "name": "北欧表情/美式乡村/法式乡村/靠垫/抱枕/火烈鸟的爱情2款",
+  "price": 342,
+  "original_price": 428,
+  "logistic_fee": 0,
+  "sold_quantity": 0,
+  "province": "浙江",
+  "city": "杭州",
+  "select_attributes": [
+   {
+    "id": 1,
+    "name": "颜色",
+    "values": [
+     "红色",
+     "黄色",
+     "蓝色",
+     "黑色"
+    ]
+   },
+   {
+    "id": 2,
+    "name": "尺码",
+    "values": [
+     "13",
+     "14",
+     "15",
+     "16"
+    ]
+   }
+  ],
+  "merchant_id": 1,
+  "merchant_name": "北欧表情",
+  "merchant_province": "浙江省",
+  "merchant_city": "杭州市",
+  "detail": "<img src=\"/dj/hybrid/app/mall/img/product/product_02/detail_01.jpg\"><img src=\"/dj/hybrid/app/mall/img/product/product_02/detail_02.jpg\"><img src=\"/dj/hybrid/app/mall/img/product/product_02/detail_03.jpg\"><img src=\"/dj/hybrid/app/mall/img/product/product_02/detail_04.jpg\"><img src=\"/dj/hybrid/app/mall/img/product/product_02/detail_05.jpg\"><img src=\"/dj/hybrid/app/mall/img/product/product_02/detail_06.jpg\"><p>【编码】：A款：DC1755；B款：DC1756；套二：TZ2098（A款：DC1755 + B款：DC1756）</p><p>【重量】：包装后重量约1KG</p><p>【材质】：100%棉</p><p>【组成】：抱枕（含内胆）</p><p>靠垫是家居中搭配的活跃要素，善用靠垫来传递色彩和质感，将非常有助于提高空间品味和气氛。手工毛线绣，立体感强。红色是很难驾驭的颜色，对于嗜红的国人而言，红彤彤的中国红，喜庆热闹，接地气，但同时品味也过于大众。雅致而不凡的红，就非常难得。浓郁的火烈鸟的爱情，红，却是这么别致！</p><img src=\"/dj/hybrid/app/mall/img/product/product_02/detail_07.jpg\"><img src=\"/dj/hybrid/app/mall/img/product/product_02/detail_08.jpg\">"
+ },
+ {
+  "images": [
+   "/dj/hybrid/app/mall/img/product/product_03/slide_01.jpg",
+   "/dj/hybrid/app/mall/img/product/product_03/slide_02.jpg",
+   "/dj/hybrid/app/mall/img/product/product_03/slide_03.jpg",
+   "/dj/hybrid/app/mall/img/product/product_03/slide_04.jpg",
+   "/dj/hybrid/app/mall/img/product/product_03/slide_05.jpg"
+  ],
+  "name": "北欧/表情/美式乡村/新中式/混搭/手绘陶瓷台灯/凤明花鸟",
+  "price": 399.5,
+  "original_price": 799,
+  "logistic_fee": 0,
+  "sold_quantity": 0,
+  "province": "浙江",
+  "city": "杭州",
+  "select_attributes": [
+   {
+    "id": 1,
+    "name": "颜色",
+    "values": [
+     "红色",
+     "黄色",
+     "蓝色",
+     "黑色"
+    ]
+   },
+   {
+    "id": 2,
+    "name": "尺码",
+    "values": [
+     "13",
+     "14",
+     "15",
+     "16"
+    ]
+   }
+  ],
+  "merchant_id": 1,
+  "merchant_name": "北欧表情",
+  "merchant_province": "浙江省",
+  "merchant_city": "杭州市",
+  "detail": "<img src=\"/dj/hybrid/app/mall/img/product/product_03/detail_01.jpg\"><img src=\"/dj/hybrid/app/mall/img/product/product_03/detail_02.jpg\"><img src=\"/dj/hybrid/app/mall/img/product/product_03/detail_03.jpg\"><img src=\"/dj/hybrid/app/mall/img/product/product_03/detail_04.jpg\"><img src=\"/dj/hybrid/app/mall/img/product/product_03/detail_05.jpg\"><img src=\"/dj/hybrid/app/mall/img/product/product_03/detail_06.jpg\"><p>【重量】：包装后重量约6kg</p><p>【组成】：灯座+灯罩</p><p>【灯泡】：E27灯泡40瓦或60瓦*1/按键开关（不可调节光度）</p><p>【材质】：陶瓷灯座，棉麻灯罩</p><p>【推荐】：将鸟语花香请入房间，将中式温婉引入现代居室。本系列台灯，为新中式混搭的优品良选！典雅的长方体陶瓷基座绘以彩色花鸟图案，亦中亦西，颜色黄的俏丽，兰的典雅，色泽鲜明又不失高级灰的优雅气质，花鸟图案人工手绘，充满灵气，配合以比例协调的白色灯罩，整体既有简约品味，又有古典气质，用来做床头台灯、书桌灯、客厅装饰用台灯都非常适合。</p><img src=\"/dj/hybrid/app/mall/img/product/product_03/detail_07.jpg\"><img src=\"/dj/hybrid/app/mall/img/product/product_03/detail_08.jpg\">"
+ },
+ {
+  "images": [
+   "/dj/hybrid/app/mall/img/product/product_04/slide_01.jpg",
+   "/dj/hybrid/app/mall/img/product/product_04/slide_02.jpg",
+   "/dj/hybrid/app/mall/img/product/product_04/slide_03.jpg",
+   "/dj/hybrid/app/mall/img/product/product_04/slide_04.jpg",
+   "/dj/hybrid/app/mall/img/product/product_04/slide_05.jpg"
+  ],
+  "name": "法式经典/美式乡村/Le Bain白色陶瓷烫铂金卫浴8件/套装",
+  "price": 158.4,
+  "original_price": 198,
+  "logistic_fee": 0,
+  "sold_quantity": 0,
+  "province": "浙江",
+  "city": "杭州",
+  "select_attributes": [
+   {
+    "id": 1,
+    "name": "颜色",
+    "values": [
+     "红色",
+     "黄色",
+     "蓝色",
+     "黑色"
+    ]
+   },
+   {
+    "id": 2,
+    "name": "尺码",
+    "values": [
+     "13",
+     "14",
+     "15",
+     "16"
+    ]
+   }
+  ],
+  "merchant_id": 1,
+  "merchant_name": "北欧表情",
+  "merchant_province": "浙江省",
+  "merchant_city": "杭州市",
+  "detail": "<img src=\"/dj/hybrid/app/mall/img/product/product_04/detail_01.jpg\"><img src=\"/dj/hybrid/app/mall/img/product/product_04/detail_02.jpg\"><img src=\"/dj/hybrid/app/mall/img/product/product_04/detail_03.jpg\"><img src=\"/dj/hybrid/app/mall/img/product/product_04/detail_04.jpg\"><img src=\"/dj/hybrid/app/mall/img/product/product_04/detail_05.jpg\"><img src=\"/dj/hybrid/app/mall/img/product/product_04/detail_06.jpg\"><p>巴黎有2300多家宾馆酒店，其中里兹酒店（Hôtel Ritz Paris）算是最著名的一个，不仅因为它是世界上最早营业的酒店，也不仅是因为它是旺多姆广场上的奢华地标，更在于香奈儿女士、海明威、戴安娜王妃等名流富贾为之流连而带来的世界性声誉。里兹酒店对巴黎式的奢华有着深刻的理解和传达，历史和传统被深入每一个细节。</p><p> 这一套卫浴用品的原型即取材自里兹酒店上世纪早期辉煌时期的浴室配件，经过了一系列的简化，保留了原始的比例和线条，陶瓷表面的手感非常适合湿滑的浴室空间，既能安全拿取不会滑落，又方便清洁。整套造型典雅色调浑厚，还原了法兰西原味的细腻与厚重。</p><p>【编码】：套四：RQ0744；漱口杯：RQ0745；高杯珠宝罐：RQ0746；棉签罐：RQ0747；肥皂盒：RQ0748；纸巾盒：RQ0749；置物盘：RQ0750；洗手液瓶：RQ0768</p><p>【重量】：套四包装后重量约3KG；高杯珠宝罐包装后重量约2KG；纸巾盒包装后重量约1.5KG；其余单品包装后重量约1KG</p><p>比例优美经典，线条细腻内敛，优雅的白色釉面，烫金文字Le Bain（法语 “洗澡”）和Luxe Pour la Maison（家用奢华品）以及烫铂金的封边，传递出奢华品特有的精致与大气。可根据需要选择搭配。</p><img src=\"/dj/hybrid/app/mall/img/product/product_04/detail_07.jpg\"><img src=\"/dj/hybrid/app/mall/img/product/product_04/detail_08.jpg\">"
+ },
+ {
+  "images": [
+   "/dj/hybrid/app/mall/img/product/product_05/slide_01.jpg",
+   "/dj/hybrid/app/mall/img/product/product_05/slide_02.jpg",
+   "/dj/hybrid/app/mall/img/product/product_05/slide_03.jpg",
+   "/dj/hybrid/app/mall/img/product/product_05/slide_04.jpg",
+   "/dj/hybrid/app/mall/img/product/product_05/slide_05.jpg"
+  ],
+  "name": "北欧表情/objectum/世界名椅/贝尔托亚餐椅/伊姆斯比基尼椅/金色",
+  "price": 1104,
+  "original_price": 1380,
+  "logistic_fee": 0,
+  "sold_quantity": 0,
+  "province": "浙江",
+  "city": "杭州",
+  "select_attributes": [
+   {
+    "id": 1,
+    "name": "颜色",
+    "values": [
+     "红色",
+     "黄色",
+     "蓝色",
+     "黑色"
+    ]
+   },
+   {
+    "id": 2,
+    "name": "尺码",
+    "values": [
+     "13",
+     "14",
+     "15",
+     "16"
+    ]
+   }
+  ],
+  "merchant_id": 1,
+  "merchant_name": "北欧表情",
+  "merchant_province": "浙江省",
+  "merchant_city": "杭州市",
+  "detail": "<img src=\"/dj/hybrid/app/mall/img/product/product_05/detail_01.jpg\"><img src=\"/dj/hybrid/app/mall/img/product/product_05/detail_02.jpg\"><img src=\"/dj/hybrid/app/mall/img/product/product_05/detail_03.jpg\"><img src=\"/dj/hybrid/app/mall/img/product/product_05/detail_04.jpg\"><img src=\"/dj/hybrid/app/mall/img/product/product_05/detail_05.jpg\"><img src=\"/dj/hybrid/app/mall/img/product/product_05/detail_06.jpg\"><p>【中国首次独家推出的OBJECTUM系列】是由比利时著名设计师Steven Vetters主理打造的全新品牌系列，他擅长实木和其他材质的结合，每一件设计品以独具比利时味道的色彩、材质、纹理，来传递优雅的内在灵魂。Steven的设计对自然材料本身的特性有着极致的琢磨，特别是对于各类实木有着很强的领悟和表达。Steven Vetters是NORHOR首位正式展开合作的欧洲家具设计师，很荣幸店内全面引进了他推出的名为OBJECTUM的品牌系列设计，完整和全面的表达了设计师在自然材质和现代生活之间努力建立的对话关系。</p><p>1）缪斯是DIOR。克丽斯汀·迪奥在1946年以来的一系列服装设计，对Steven有着强烈的影响，因此在他自己设计的家居用品系列中，无论是造型，还是不同材料的结合使用，都追求DIOR服装一般的隽永、经典和优雅，同样的，设计中对线条的比例和宽度、适度夸张的构件对比等有诸多应用，形态上也追求具有永恒意义的造型，因此也同样呈现出一种法式的浪漫和优雅，而这是OBJECTUM系列最令人心旷神怡的灵魂所在。</p><p>2）善于治木。以回收老榆木,老松木等实木为主材，表面进一步做旧处理，表面施以比利时亚麻白色的涂装，气质怀旧悠然，色调优雅恬淡，呈现出一种高级的乡村生活质感。值得一提的是，回收木历经长久岁月其甲醛释放几乎为0，而荷兰进口水性漆和德国木蜡油涂装，作为当今家具涂装十分环保健康的选择，整体上对室内生活的健康有了极大保障。</p><p>3）巧于混搭。粗犷的回收木、纤巧的金属管、闪亮的不锈钢框架等等材料魔术般的整合在一起，巧妙的对比，精致的和谐，体现了欧洲家居时尚最新的混搭趋势。</p><p>4）尊重生活。十分节约空间又围合亲密的托圆桌、坐板有着细腻弧度的座椅、节约空间又储物强大的镜面落地架等，都是从生活实际需要出发展开的设计，首先确保功能，其次满足方便耐用的日常需求，最后为这样的生活提供优雅从容的举止。</p><img src=\"/dj/hybrid/app/mall/img/product/product_05/detail_07.jpg\"><img src=\"/dj/hybrid/app/mall/img/product/product_05/detail_08.jpg\">"
+ },
+ {
+  "images": [
+   "/dj/hybrid/app/mall/img/product/product_06/slide_01.jpg",
+   "/dj/hybrid/app/mall/img/product/product_06/slide_02.jpg",
+   "/dj/hybrid/app/mall/img/product/product_06/slide_03.jpg",
+   "/dj/hybrid/app/mall/img/product/product_06/slide_04.jpg",
+   "/dj/hybrid/app/mall/img/product/product_06/slide_05.jpg"
+  ],
+  "name": "北欧/表情/乔特系列/现代黑胡桃木家具/瘦金玻璃茶几/咖啡桌2款",
+  "price": 1184,
+  "original_price": 1480,
+  "logistic_fee": 0,
+  "sold_quantity": 0,
+  "province": "浙江",
+  "city": "杭州",
+  "select_attributes": [
+   {
+    "id": 1,
+    "name": "颜色",
+    "values": [
+     "红色",
+     "黄色",
+     "蓝色",
+     "黑色"
+    ]
+   },
+   {
+    "id": 2,
+    "name": "尺码",
+    "values": [
+     "13",
+     "14",
+     "15",
+     "16"
+    ]
+   }
+  ],
+  "merchant_id": 1,
+  "merchant_name": "北欧表情",
+  "merchant_province": "浙江省",
+  "merchant_city": "杭州市",
+  "detail": "<img src=\"/dj/hybrid/app/mall/img/product/product_06/detail_01.jpg\"><img src=\"/dj/hybrid/app/mall/img/product/product_06/detail_02.jpg\"><img src=\"/dj/hybrid/app/mall/img/product/product_06/detail_03.jpg\"><img src=\"/dj/hybrid/app/mall/img/product/product_06/detail_04.jpg\"><img src=\"/dj/hybrid/app/mall/img/product/product_06/detail_05.jpg\"><img src=\"/dj/hybrid/app/mall/img/product/product_06/detail_06.jpg\"><p>【乔特系列现代黑胡桃木家具】乔特（Jotter）诞生于1954年，作为派克笔业（parker）迄今为止销量第二成功的设计产品，累计全球已经销售了7.5亿支，这种以滚动圆头书写平滑为特点的圆珠笔一经问世便征服了世人，可更换的笔芯令Jotter圆珠笔价格十分亲人。Jotter的诞生，将快速书写与人们的工作、生活、灵感、理想更加紧密的结合在一起。高雅的文字、精美的书法、贵族般的语法，被一支小小的圆珠笔拉近了与平民百姓的距离。</p><p>【永恒的Jotter精神】：受到改变世界的Jotter圆珠笔启发，乔特（Jottergoods）系列家具以优雅奢华的北美黑胡桃木为材，以纤巧挺拔的线条为造型要素，将知性贵气的风格拉近了与平日生活的距离，为日常生活带来常新的灵感，就像乔特圆珠笔一样成为生活分享、记忆的载体和优雅生活的提供者。</p><p>【现代都市的生活尺度】来自新加坡的乔特系列家具系列主设计师，针对都市户型一般面宽有限而纵向进深较大的特点，特别设计了集约、实用又比例优雅的家具尺寸，比如进深不超过45厘米的抽屉柜，兼顾了藏书、储物、储衣物等需要，十分贴合墙壁，极大节约空间避免的空间浪费，在整体造型上，特别强调垂直和水平线条的挺拔和纤巧，从视觉上减少了家具体量，使其显得轻盈、优美、优雅并且朝气蓬勃。</p><p>【青年精英的生活质感】行走世界懂得欣赏粗粝，爱不释卷滋润灵感生长，互联网时代成长起来的青年精英，是具有宽广世界观的一代，也是对东方文化和审美具有文化自觉的一代，将东方的内敛、娴静与宏大激荡的世界眼界结合，更加能够描述都市新贵们的生活观念，乔特系列家具以昂贵高雅的北美黑胡桃木为材，也会选择质感硬朗的金属，以怀旧的金属拉手点题，以东方的线条感为形式感，以1950年代北欧家具的现代设计为依据，不拘泥于琐碎细节，而强调大比例、尺度，从气质、形态、材料、细节很好的体现了简约、利落、快捷、高品质、兼容文化的青年精英生活。</p><p>来自2015年新加坡设计师全力打造的乔特系列都市精英家具品系，可搜索关键词“乔特”查看更多产品，本系列产品相互可完美搭配，形成兼具知性与轻工矿的都市生活。</p><img src=\"/dj/hybrid/app/mall/img/product/product_06/detail_07.jpg\"><img src=\"/dj/hybrid/app/mall/img/product/product_06/detail_08.jpg\">"
+ },
+ {
+  "images": [
+   "/dj/hybrid/app/mall/img/product/product_07/slide_01.jpg",
+   "/dj/hybrid/app/mall/img/product/product_07/slide_02.jpg",
+   "/dj/hybrid/app/mall/img/product/product_07/slide_03.jpg",
+   "/dj/hybrid/app/mall/img/product/product_07/slide_04.jpg",
+   "/dj/hybrid/app/mall/img/product/product_07/slide_05.jpg"
+  ],
+  "name": "北欧/表情/美式乡村简约/品质家具/布艺沙发/AMSTERDAM/单人",
+  "price": 2624,
+  "original_price": 3280,
+  "logistic_fee": 0,
+  "sold_quantity": 0,
+  "province": "浙江",
+  "city": "杭州",
+  "select_attributes": [
+   {
+    "id": 1,
+    "name": "颜色",
+    "values": [
+     "红色",
+     "黄色",
+     "蓝色",
+     "黑色"
+    ]
+   },
+   {
+    "id": 2,
+    "name": "尺码",
+    "values": [
+     "13",
+     "14",
+     "15",
+     "16"
+    ]
+   }
+  ],
+  "merchant_id": 1,
+  "merchant_name": "北欧表情",
+  "merchant_province": "浙江省",
+  "merchant_city": "杭州市",
+  "detail": "<img src=\"/dj/hybrid/app/mall/img/product/product_07/detail_01.jpg\"><img src=\"/dj/hybrid/app/mall/img/product/product_07/detail_02.jpg\"><img src=\"/dj/hybrid/app/mall/img/product/product_07/detail_03.jpg\"><img src=\"/dj/hybrid/app/mall/img/product/product_07/detail_04.jpg\"><img src=\"/dj/hybrid/app/mall/img/product/product_07/detail_05.jpg\"><img src=\"/dj/hybrid/app/mall/img/product/product_07/detail_06.jpg\"><p>【编码】：SJ1510D</p><p>【体积】：包装后体积约0.8立方米</p><p>【尺寸】：左右宽约80cm，前后深约72cm，高约90cm，座面深度约58cm，座面宽度约47cm，座面距地面高约42cm，沙发腿高约20cm</p><p>【注意】：拍下运费是以体积收取的，如有出入按实际包装体积为准</p><p>【推荐】：经典欧洲款式，充满旧时代学校和图书馆的气质。怀旧，但绝对的时髦，橡木本色支脚与知性的巴黎灰色相呼应。简约之美，永远都不会过时。</p><img src=\"/dj/hybrid/app/mall/img/product/product_07/detail_07.jpg\"><img src=\"/dj/hybrid/app/mall/img/product/product_07/detail_08.jpg\">"
+ },
+ {
+  "images": [
+   "/dj/hybrid/app/mall/img/product/product_08/slide_01.jpg",
+   "/dj/hybrid/app/mall/img/product/product_08/slide_02.jpg",
+   "/dj/hybrid/app/mall/img/product/product_08/slide_03.jpg",
+   "/dj/hybrid/app/mall/img/product/product_08/slide_04.jpg",
+   "/dj/hybrid/app/mall/img/product/product_08/slide_05.jpg"
+  ],
+  "name": "北欧/表情/现代简约/混搭/意大利设计/灰色/Arezzo布艺双人床",
+  "price": 4224,
+  "original_price": 5280,
+  "logistic_fee": 0,
+  "sold_quantity": 0,
+  "province": "浙江",
+  "city": "杭州",
+  "select_attributes": [
+   {
+    "id": 1,
+    "name": "颜色",
+    "values": [
+     "红色",
+     "黄色",
+     "蓝色",
+     "黑色"
+    ]
+   },
+   {
+    "id": 2,
+    "name": "尺码",
+    "values": [
+     "13",
+     "14",
+     "15",
+     "16"
+    ]
+   }
+  ],
+  "merchant_id": 1,
+  "merchant_name": "北欧表情",
+  "merchant_province": "浙江省",
+  "merchant_city": "杭州市",
+  "detail": "<img src=\"/dj/hybrid/app/mall/img/product/product_08/detail_01.jpg\"><img src=\"/dj/hybrid/app/mall/img/product/product_08/detail_02.jpg\"><img src=\"/dj/hybrid/app/mall/img/product/product_08/detail_03.jpg\"><img src=\"/dj/hybrid/app/mall/img/product/product_08/detail_04.jpg\"><img src=\"/dj/hybrid/app/mall/img/product/product_08/detail_05.jpg\"><img src=\"/dj/hybrid/app/mall/img/product/product_08/detail_06.jpg\"><p>床，作为最基本的家具，需要的是结实、耐用、承载好的睡眠质量，需要有简单但是耐看的造型，同时，也要真切的关注卧室中的生活。</p><p>比如，每当靠在床头都会觉得冰凉么？在床上打闹头磕到床头或者不小心踢到床脚痛到十分恼火么？想要布艺但是有害怕不容易清洁么？……</p><p>如果你有上述的困扰，那么这款双人床真的很值得考虑！</p><p>【体积】：各部件包装后总体积约1立方米</p><p>【材质】：进口混纺面料，床外套可拆洗；床头板采以桦木为框架，结实牢固。软木龙骨架（软木龙骨架采用直径约5厘米左右的钢管为边框，并均匀敷于软木木条，床架中间设置2处支撑脚，整个床架架受力在600KG以上）</p><img src=\"/dj/hybrid/app/mall/img/product/product_08/detail_07.jpg\"><img src=\"/dj/hybrid/app/mall/img/product/product_08/detail_08.jpg\">"
+ }
+]

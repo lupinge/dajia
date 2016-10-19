@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="zh" manifest="index.appcache">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content=" user-scalable=no, initial-scale=1.0, maximum-scale=1.0" />
+<meta name="format-detection"content="telephone=no">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<link rel="icon" href="http://static.meijiaapp.com/lib/img/favicon.ico" type="image/x-icon">
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<title>美家</title>
+<style media="screen">
+html,
+body {
+    /*height: 100%;*/
+}
+body {
+    background-color: #fff;
+    color: #404040;
+    font: 16px/1.5 tahoma, arial, sans-serif;
+}
+.page-status .status-tips::before {
+    /*background: url(/dj/hybrid/common/image/icon-status.png) no-repeat;*/
+    -webkit-background-size: contain;
+    -ms-background-size: contain;
+    background-size: contain;
+}
+.page-status {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+
+    background-color: #fff;
+}
+.page-status .status-tips {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    color: #808080;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+}
+.page-status .status-tips::before {
+    content: "";
+    display: block;
+    margin: 0 auto 20px;
+}
+.page-status.status-loading .status-tips {
+    margin-top: -86px;
+}
+.page-status.status-loading .status-tips::before {
+    /*background: url(/dj/hybrid/common/image/loading.gif) no-repeat;*/
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+
+body.android .page-status.status-loading .status-tips::before {
+    width: 30px;
+    height: 36px;
+    -webkit-background-size: contain;
+    background-size: contain;
+
+}
+body.ios .page-status.status-loading .status-tips::before {
+    width: 30px;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+body.offline .page-status.status-loading .status-tips ,
+body.nothing .page-status.status-loading .status-tips {
+    display: none;
+}
+.page-status.status-offline .status-tips {
+    margin-top: -83px;
+}
+.page-status.status-offline .status-tips::before {
+    position: relative;
+    left: 16px;
+    width: 105px;
+    height: 0px;
+    background-position: 0 -227px;
+}
+.page-status.status-nothing .status-tips {
+    margin-top: -89px;
+}
+.page-status.status-nothing .status-tips::before {
+    position: relative;
+    left: -4px;
+    width: 86px;
+    height: 0px;
+}
+.loading-section,
+.offline-section,
+.nothing-section {
+    display: none;
+}
+.loading .loading-section,
+.offline .offline-section,
+.nothing .nothing-section {
+    display: block;
+}
+</style>
+<script src="/dj/hybrid/common/g.js"></script>
+</head>
+<body class="loading">
+<script>
+    if (window.navigator.userAgent.indexOf('Android') > -1) {
+        document.body.className = document.body.className + ' android';
+    } else {
+        document.body.className = document.body.className + ' ios';
+    }
+    window.GJ_START_TIMESTAMP = Date.now();
+</script>
+<section class="section loading-section">
+    <div class="page-status status-loading">
+        <div class="status-tips js-loading-tip">
+            <style type="text/css">
+                /*.spinner {
+                  width: 60px;
+                  height: 6px;
+                  margin: 0 auto;
+                  text-align: center;
+                }
+
+                .spinner > div {
+                  width: 10%;
+                  height: 100%;
+                  background-color: #f95347;
+                  display: inline-block;
+                  margin: 0 auto;
+                  -webkit-animation: bouncedelay .4s infinite cubic-bezier(0.18, 0.89, 0.32, 1.28);
+                  animation: bouncedelay .4s infinite cubic-bezier(0.18, 0.89, 0.32, 1.28);
+                  -webkit-animation-fill-mode: both;
+                  animation-fill-mode: both;
+                }
+
+                .spinner .rect2 {
+                  -webkit-animation-delay: -0.30s;
+                  animation-delay: -0.30s;
+                }
+                .spinner .rect3 {
+                  -webkit-animation-delay: -0.28s;
+                  animation-delay: -0.28s;
+                }
+                .spinner .rect4 {
+                  -webkit-animation-delay: -0.24s;
+                  animation-delay: -0.24s;
+                }
+                .spinner .rect5 {
+                  -webkit-animation-delay: -0.14s;
+                  animation-delay: -0.14s;
+                }
+                .spinner .rect6 {
+                  -webkit-animation-delay: -0.10s;
+                  animation-delay: -0.10s;
+                }
+
+                @-webkit-keyframes bouncedelay {
+                  0%, 80%, 100% { opacity: 0.2; }
+                  40% { opacity:1; }
+                }
+
+                @keyframes bouncedelay {
+                  0%, 80%, 100% {
+                    opacity: 0.2;
+                  } 40% {
+                    opacity: 1;
+                  }
+                }*/
+
+                /*仿app内loading动画*/
+                .spinner {
+                  width: 85px;
+                  height: 55px;
+                  margin: 0 auto;
+                  text-align: center;
+                  position: relative;
+                }
+                .rotate-img{
+                  width: 85px;
+                  height: 55px;
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+
+                }
+
+                @-webkit-keyframes rotate {
+                  0% {
+                    -webkit-transform: rotateY(0deg);
+                    -moz-transform: rotateY(0deg);
+                    -o-transform: rotateY(0deg);
+                    transform: rotateY(0deg);
+                  }
+                  100% {
+                    -webkit-transform: rotateY(360deg);
+                    -moz-transform: rotateY(360deg);
+                    -o-transform: rotateY(360deg);
+                    transform: rotateY(360deg);
+                  }
+                }
+                @-moz-keyframes rotate {
+                  0% {
+                    -webkit-transform: rotateY(0deg);
+                    -moz-transform: rotateY(0deg);
+                    -o-transform: rotateY(0deg);
+                    transform: rotateY(0deg);
+                  }
+                  100% {
+                    -webkit-transform: rotateY(360deg);
+                    -moz-transform: rotateY(360deg);
+                    -o-transform: rotateY(360deg);
+                    transform: rotateY(360deg);
+                  }
+                }
+                @-o-keyframes rotate {
+                  0% {
+                    -webkit-transform: rotateY(0deg);
+                    -moz-transform: rotateY(0deg);
+                    -o-transform: rotateY(0deg);
+                    transform: rotateY(0deg);
+                  }
+                  100% {
+                    -webkit-transform: rotateY(360deg);
+                    -moz-transform: rotateY(360deg);
+                    -o-transform: rotateY(360deg);
+                    transform: rotateY(360deg);
+                  }
+                }
+                @keyframes rotate {
+                  0% {
+                    -webkit-transform: rotateY(0deg);
+                    -moz-transform: rotateY(0deg);
+                    -o-transform: rotateY(0deg);
+                    transform: rotateY(0deg);
+                  }
+                  100% {
+                    -webkit-transform: rotateY(360deg);
+                    -moz-transform: rotateY(360deg);
+                    -o-transform: rotateY(360deg);
+                    transform: rotateY(360deg);
+                  }
+                }
+
+                .rotate{
+                  -webkit-animation: rotate 1s linear 0s infinite normal;
+                  animation: rotate 1s linear 0s infinite normal;
+                }
+
+            </style>
+            <div class="spinner">
+              <!-- <div class="rect1"></div>
+              <div class="rect2"></div>
+              <div class="rect3"></div>
+              <div class="rect4"></div>
+              <div class="rect5"></div>
+              <div class="rect6"></div> -->
+              <img src="/dj/hybrid/common/image/L4@2x.png" alt="" class="rotate-img rotate">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section nothing-section">
+    <div class="page-status status-nothing">
+        <div class="status-tips js-nothing-tip">没有相关信息，请重新筛选或搜索吧!</div>
+    </div>
+</section>
+<section class="section offline-section">
+    <div class="page-status status-offline">
+        <div class="status-tips js-offline-tip">当前无法访问网络，点击屏幕可刷新！</div>
+    </div>
+</section>
+<script>
+
+(function () {
+    var newVersion = parseInt(Date.now() / 1000, 10);
+    var lastVersion = (localStorage.getItem('FILE#version.js') || '').split('#__#')[0];
+    var version;
+
+    if (lastVersion.toString() !== parseInt(lastVersion).toString()) {
+        lastVersion = null;
+    } else {
+        lastVersion = parseInt(lastVersion, 10);
+    }
+
+    function onVersionJSReady () {
+        G.use(['hybrid/common/init.js', 'hybrid/common/style/global.jcss'])
+            .fail(onFail);
+    }
+
+    function onFail() {
+        document.body.classList.remove('loading');
+        document.body.classList.add('offline');
+    }
+
+    if (window.navigator.onLine === false && lastVersion) {
+        version = lastVersion;
+    } else {
+        version = newVersion;
+    }
+
+    G.config('version', {
+        'version.js': version
+    });
+
+    G.use('version.js')
+        .done(onVersionJSReady)
+        .fail(function () {
+            if (!lastVersion) {
+                onFail();
+                return;
+            }
+            G.config('version', {
+                'version.js': lastVersion
+            });
+
+            delete G.Module.cache['version.js'];
+
+            G.use('version.js')
+                .done(onVersionJSReady)
+                .fail(onFail);
+        });
+})();
+</script>
+<script type="text/javascript">
+    // var _hmt = _hmt || [];
+    // setTimeout(function () {
+    //   (function() {
+    //       var hm = document.createElement("script");
+    //       hm.src = "//hm.baidu.com/hm.js?a61a64575c904a31a387e084b7a7721f";
+    //       var s = document.getElementsByTagName("script")[0];
+    //       s.parentNode.insertBefore(hm, s);
+    //   })();
+    // }, 3000);
+</script>
+</body>
+</html>

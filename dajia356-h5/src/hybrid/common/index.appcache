@@ -1,0 +1,14 @@
+{
+    "baseUrl": "/dj/",
+    "deps": [
+        "hybrid/common/index.html"
+    ],
+    "cache": [
+        "hybrid/common/g.js",
+        "hybrid/common/image/icon.png",
+        "hybrid/common/image/placeholder2x.png"
+    ],
+    "network": [
+        "*"
+    ]
+}
